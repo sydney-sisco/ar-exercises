@@ -6,6 +6,7 @@ puts "----------"
 
 # Your code goes below here ...
 class Store < ActiveRecord::Base
+  has_many :employees
 end
 
 puts Store.all.count # 0
